@@ -1,7 +1,9 @@
+import { Heading } from '../components/Heading';
+
 const Posts = () => {
   return (
     <div>
-      <h1>Post List</h1>
+      <Heading text="Post List" />
     </div>
   );
 };
