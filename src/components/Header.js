@@ -1,9 +1,9 @@
-import { Heading } from '../components/Heading';
+import { Navbar } from './Navbar';
 
 export const Header = () => {
   return (
     <header>
-      <Heading tag="h3" text="NextJS" />
+      <Navbar />
     </header>
   );
 };
