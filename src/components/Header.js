@@ -3,7 +3,7 @@ import { Heading } from '../components/Heading';
 export const Header = () => {
   return (
     <header>
-      <Heading text="NextJS" />
+      <Heading tag="h3" text="NextJS" />
     </header>
   );
 };
