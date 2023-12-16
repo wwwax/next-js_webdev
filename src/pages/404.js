@@ -1,8 +1,10 @@
+import { Heading } from '@/components/Heading';
+
 const Error = () => {
   return (
     <div>
-      <h1>404</h1>
-      <h2>Error: Something went wrong</h2>
+      <Heading text="404" />
+      <Heading text="Error: Something went wrong" />
     </div>
   );
 };

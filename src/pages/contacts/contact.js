@@ -1,7 +1,9 @@
+import { Heading } from '@/components/Heading';
+
 const Contact = () => {
   return (
     <div>
-      <h1>Jack</h1>
+      <Heading text="Jack" />
     </div>
   );
 };
