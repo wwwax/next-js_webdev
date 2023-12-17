@@ -1,13 +1,13 @@
-import { Heading } from '@/components/Heading';
+import { ContactInfo } from '@/components/ContactInfo';
 import Head from 'next/head';
 
-const Contact = () => {
+const Contact = ({ contact }) => {
   return (
     <div>
       <Head>
         <title>Contacts</title>
       </Head>
-      <Heading text="Jack" />
+      <ContactInfo contact={contact} />
     </div>
   );
 };
